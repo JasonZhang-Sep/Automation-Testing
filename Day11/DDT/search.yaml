@@ -1,0 +1,16 @@
+-
+  common: &common
+    url: http://www.baidu.com
+    input:
+      by: id
+      value: chat-textarea
+    click:
+      by: id
+      value: chat-submit-button
+    wait: 5
+  txt: 黄财财1
+
+-
+  common:
+    <<: *common
+  txt: 黄财财2

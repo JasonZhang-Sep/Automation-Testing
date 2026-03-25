@@ -1,0 +1,4 @@
+INFO 2026-01-29 19:41:39,424 read_conf.py read_conf <module> 15 : 这是日志
+INFO 2026-01-29 19:49:32,646 read_conf.py read_conf <module> 22 : 这是日志
+INFO 2026-01-29 19:56:51,212 read_conf.py read_conf <module> 23 : 这是日志
+DEBUG 2026-01-30 10:01:11,568 read_logging_conf.py read_logging_conf <module> 22 : 这是日志

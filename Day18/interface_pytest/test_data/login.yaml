@@ -1,0 +1,34 @@
+-
+  login:
+    method: post
+    path: user_services/login
+    json:
+      username: user1
+      password: password123
+    expect:
+      message: Login successful
+
+  user_info:
+    method: get
+    path: /user_services/user_info
+    headers:
+      Authorization:
+    expect:
+      user_id: 421
+
+  add_balance:
+    method: post
+    path: add_balance
+    json:
+      amount: 100
+      user_id:
+    expect:
+      error: Unauthorized access
+
+  goods_info:
+    method: get
+    path: /product_services/products
+    id:
+    expect:
+      name: 老面馒头一个
+      price: 1.8
