@@ -82,17 +82,6 @@ class ApiKeys:
                  '''
 
 
-# api = ApiKeys('uat_env')
-# data = {
-#    "message": "Login successful",
-#    "nickname": "用户t5yEI5fyeJ",
-#    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0MjEsImV4cCI6MTc3NDAwOTU4NX0.Gv0CsH06Fat3gLOUmxH7jI5Eb1eZQ8ZLhfbmWL3vhDs"
-# }
-# expect1 = {"message": "Login successful"}
-# json_value = api.get_json_value(data, 'message')
-# print(json_value)
-
-
 
 
 
